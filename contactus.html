@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.0/animate.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+
+</head>
+
+<body>
+    <section class="contact">
+        <header>
+            
+        <nav id="navbar_top" class="navbar navbar-expand-lg header2 ">
+            <div class="container">
+                <a class="navbar-brand logo" href="/index.html"><img src="/images/logo.jpg" alt=""></a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#main_nav"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="main_nav">
+                    <ul class="navbar-nav ml-auto">
+                        <li class="nav-item"><a class="nav-link" href="/index.html"> Home </a></li>
+                        <li class="nav-item"><a class="nav-link" href="/aboutus.html"> About Us </a></li>
+                        <li class="nav-item"><a class="nav-link" href="/services.html"> Services </a></li>
+                        <li class="nav-item"><a class="nav-link" href="/contactus.html"> Contact Us</a></li>
+                        <li class="nav-item"><a class="nav-link nav-btn" href="/contactus.html"> Request a Pick Up&nbsp;<i class="fa fa-paper-plane" aria-hidden="true"></i></a></li>
+
+                    </ul>
+                </div> <!-- navbar-collapse.// -->
+            </div> <!-- container.// -->
+        </nav>
+        </header>
+        <div class="banner">
+            <img src="/images/servicebanner.jpg" alt="">
+            <p img-title>Contact Us</p>
+
+        </div>
+        <div class="container">
+
+            <div class="row">
+                <div class="col-10">
+                    <h2 class="contact-title">Get in Touch</h2>
+                </div>
+                <div class="col-lg-8">
+                    <form class="form-contact contact_form" action="contact_process.php" method="post" id="contactForm"
+                        novalidate="novalidate">
+                        <div class="row">
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <textarea class="form-control w-100" name="message" id="message" cols="30" rows="9"
+                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Message'"
+                                        placeholder=" Enter Message"></textarea>
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input class="form-control valid" name="name" id="name" type="text"
+                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter your name'"
+                                        placeholder="Enter your name">
+                                </div>
+                            </div>
+                            <div class="col-sm-6">
+                                <div class="form-group">
+                                    <input class="form-control valid" name="email" id="email" type="email"
+                                        onfocus="this.placeholder = ''"
+                                        onblur="this.placeholder = 'Enter email address'" placeholder="Email">
+                                </div>
+                            </div>
+                            <div class="col-12">
+                                <div class="form-group">
+                                    <input class="form-control" name="subject" id="subject" type="text"
+                                        onfocus="this.placeholder = ''" onblur="this.placeholder = 'Enter Subject'"
+                                        placeholder="Enter Subject">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="form-group mt-3">
+                            <button type="submit" class="button button-contactForm boxed-btn">Send</button>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-lg-3 offset-lg-1" >
+                    <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="fa fa-home" aria-hidden="true"></i></span>
+                        <div class="media-body">
+                            <h6>Narephat, Sanepa</h6>
+                            <p>Lalitpur, Nepal</p>
+                        </div>
+                    </div>
+                    <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="fa fa-mobile" aria-hidden="true"></i></span>
+                        <div class="media-body">
+                            <h6>&nbsp; 981-3311341</h6>
+                            <p>&nbsp; 8am to 6pm</p>
+                        </div>
+                    </div>
+                    <div class="media contact-info">
+                        <span class="contact-info__icon"><i class="fa fa-envelope" aria-hidden="true"></i></span>
+                        <div class="media-body">
+                            <h6>
+                                laundrynepal2018@gmail.com</h6>
+                            <p>Send us your query anytime!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- map -->
+   <iframe 
+   src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3532.931547563268!2d85.31050121422041!3d27.688510482799703!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x39eb184cbb7a1a99%3A0xf7af5378e8b6084a!2sPurnima%20Cold%20Store!5e0!3m2!1sen!2snp!4v1610680385395!5m2!1sen!2snp" width="100%" height="450" frameborder="0" style="border:0;" allowfullscreen="" aria-hidden="false" tabindex="0"></iframe>
+   <!-- map -->
+   <footer>
+    <!-- Footer Start-->
+    <div class="footer-area footer-padding">
+        <div class="container">
+            <div class="row d-flex justify-content-between">
+                <div class="col-xl-4 col-lg-4 col-md-4 col-sm-6">
+                    <div class="single-footer-caption mb-50">
+                        <div class="single-footer-caption mb-30">
+                            <!-- logo -->
+                            <div class="footer-logo mb-35">
+                                <a href="index.html"><img src="/images/logo.jpg" width="100px" height="100px"
+                                        alt="logo"></a>
+                            </div>
+                            <div class="footer-tittle">
+                                <div class="footer-pera">
+                                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora, corporis?
+                                    </p>
+                                </div>
+                            </div>
+                            <!-- social -->
+                            <div class="footer-social">
+                                <a href="#"><i class="fa fa-twitter"></i></a>
+                                <a href="#"><i class="fa fa-facebook-f"></i></a>
+                                <a href="#"><i class="fa fa-pinterest-p"></i></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                    <div class="single-footer-caption mb-50">
+                        <div class="footer-tittle">
+                            <h4>Services </h4>
+                            <ul style="list-style: none;">
+                                <li><a href="#">- Dry Cleaning</a></li>
+                                <li><a href="#">- Dry Clean</a></li>
+                                <li><a href="#">- Ironing Services</a></li>
+                                <li><a href="#">- Laundry Service London</a></li>
+                                <li><a href="#">- Laundry App</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6">
+                    <div class="single-footer-caption mb-50">
+                        <div class="footer-tittle">
+                            <h4>Get in touch</h4>
+                            <ul style="list-style: none;">
+                                <li class="number"><a href="#">981-3311341</a></li>
+                                <li><a href="mailto:laundrynepal2018@gmail.com">laundrynepal2018@gmail.com</a></li>
+                                <li><a href="#">Narephat, Sanepa, Lalitpur, Nepal</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- footer-bottom area -->
+    <div class="footer-bottom-area section-bg2">
+        <div class="container">
+            <div class="footer-border">
+                <div class="row d-flex align-items-center">
+                    <div class="col-xl-12 ">
+                        <div class="footer-copy-right text-center">
+                            <p>&copy; All right Reserved by Laundry Nepal</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer End-->
+    </section>
+    <script src="script.js">
+    </script>
+</body>
+
+</html>
