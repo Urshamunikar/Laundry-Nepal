@@ -34,6 +34,7 @@
 /* slider */
 /* .banner */
 .banner {
+    position:relative;
     max-height: 400px;
     margin-bottom: 50px;
 }
@@ -42,6 +43,19 @@
     height: 400px;
     width: 100%;
 }
+
+  
+  .img-title{
+    position: absolute;
+    color: #fff;
+    text-align: center;
+    left: 0;
+   right: 0;
+    top: 40%;
+    font-size: 3rem;
+    font-weight: 800;
+   
+  }
 /* .banner */
 
 .btn:focus, .btn:hover {
@@ -205,6 +219,28 @@
     margin: 3% 3% 0 0 ;
 }
 /* details */
+
+
+/* request */
+.request{
+    height: 500px;
+    background-image: url(/images/laundry3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+
+}
+.request-title, .request-para{
+
+    text-align: center;
+    margin: 40px;
+    color: #25456d;
+}
+.request-para{
+    color:  black;
+    
+}
+/* request */
 
 /* contact */
 .contact{
