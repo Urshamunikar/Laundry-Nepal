@@ -1,42 +1,54 @@
 
+*{
+    padding: 0;
+    margin:0;
+    box-sizing: border-box;
+   
+}
 /* 2 header */
 .header2{
-   background-color: #fabe06;
-   height: 80px;
-}
-.logo img {
-    width: 80px;
-    height: 80px;
-}
-.nav-link{
-    color: white;
-    font-size: 1.2rem;
-    margin: 0 1.2rem ;
-}
-.nav-link:hover, .nav-link:active{
-    transform: scale(1.1);
-    transition: 0.6s;
+    background-color: #fabe06;
+    height: auto;
+  
     
-}
-.nav-btn{
-    border: 1px solid white;
-}
-.nav-btn:hover{
-    background-color: #fff;
-    color: #fabe06;
-}
-
-/* 2 header */
+ }
+ .logo img {
+     width: 80px;
+     height: 70px;
+ }
+ .nav-link{
+     color: white;
+     font-size: 1.2rem;
+     margin: 0 1.2rem ;
+ }
+ .nav-link:hover, .nav-link:active{
+     
+     transition: 0.6s;
+     
+ }
+ .nav-btn{
+     display: inline-block !important;
+     border: 1px solid white;
+    
+ }
+ .nav-btn:hover{
+     background-color: #fff;
+     color: #fabe06;
+ }
+ 
+ /* 2 header */
 /* slider */
 .slider img{
+    margin-top: 90px;
     height: 500px;
 }
 /* slider */
 /* .banner */
 .banner {
+
     position:relative;
     max-height: 400px;
-    margin-bottom: 50px;
+    margin: 90px 0 50px 0 ;
 }
 
 .banner img {
@@ -94,6 +106,7 @@
     font-weight: 600;
     text-transform: normal;
     line-height: 1.4;
+    margin-bottom: 5%;
 }
 
 .about-img img {
@@ -103,6 +116,125 @@
 }
 
     /* about */
+
+
+/* pricing */
+#pricing {
+    margin: 5rem;
+}
+
+.pricingTable {
+    color: #3DB3D9;
+    background: linear-gradient(to bottom, #3DB3D9, #7C7AE8);
+    font-family: 'Maven Pro', sans-serif;
+    text-align: center;
+    padding: 10px;
+    /* margin: 0 15px; */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.15);
+}
+
+.pricingTable .pricingTable-header {
+    background: #fff;
+    padding: 12px 0 15px;
+    margin: 0 0 25px;
+}
+
+.pricingTable .title {
+    font-size: 30px;
+    font-weight: 700;
+    text-transform: uppercase;
+    margin: 0;
+}
+
+.pricingTable .price-value {
+    color: #fff;
+    text-shadow: 0 0 8px rgba(0, 0, 0, 0.3);
+    margin: 0 0 25px;
+}
+
+.pricingTable .pricing-content {
+    padding: 20px;
+    margin: 0 0 2px;
+    list-style: none;
+    border: 4px solid #fff;
+    border-radius: 25px;
+
+}
+
+.pricingTable .pricing-content li {
+    color: #fff;
+    font-size: 15px;
+    text-align: left;
+    padding: 0 0 0 35px;
+    margin: 0 0 15px;
+    position: relative;
+}
+
+.pricingTable .pricing-content li:last-child {
+    margin-bottom: 0;
+}
+
+.pricingTable .pricing-content li:before {
+    content: "✓";
+    color: #fff;
+    background: #5dbb54;
+    font-family: "Font Awesome 5 Free";
+    font-size: 14px;
+    font-weight: 900;
+    text-align: center;
+    line-height: 23px;
+    width: 23px;
+    height: 23px;
+    border-radius: 50px;
+    position: absolute;
+    top: 2px;
+    left: 0;
+}
+
+/* .pricingTable .pricing-content li.disable:before {
+    content: "✘";
+    background: #bb5057;
+} */
+
+.pricingTable .pricingTable-signup {
+    background: #fff;
+    padding: 10px 0 10px;
+}
+
+.pricingTable .pricingTable-signup a {
+    color: #3DB3D9;
+    font-size: 27px;
+    font-weight: 700;
+    text-transform: uppercase;
+    transition: all 0.3s;
+}
+
+.pricingTable .pricingTable-signup a:hover {
+    text-shadow: -4px 4px 1px rgba(0, 0, 0, 0.1);
+    letter-spacing: 3px;
+}
+
+.pricingTable.yellow {
+    color: #30ACC6;
+    background: linear-gradient(to bottom, #30ACC6,#E3E76C);
+}
+
+.pricingTable.yellow .pricingTable-signup a {
+    color: #30ACC6;
+}
+
+@media only screen and (max-width: 1200px) {
+    .pricingTable {
+        margin: 0;
+    }
+}
+
+@media only screen and (max-width: 990px) {
+    .pricingTable {
+        margin-bottom: 40px;
+    }
+}
+/* pricing */
 
 /* services */
 .element {
@@ -199,8 +331,20 @@
 
 
 /* testimony */
-
-
+.slider-box{
+    height: 400px;
+}
+.slider-box-img{
+    height: 140px;
+    width: 140px;
+    display: block;
+    margin: 0 auto ;
+}
+.slider-box h1, .slider-box p{
+    text-align: center;
+    margin:0 11% ;
+  
+}
 /* testimony */
 
 /* details */
